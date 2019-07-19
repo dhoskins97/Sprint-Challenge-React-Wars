@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.Header {
+  color: #443e3e;
+  text-shadow: 1px 1px 5px #fff;
+}
+/* write your parent styles in here for your App.js */
+
+.cardContainer {
+  display: flex;
+  flex-flow: row wrap;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-around;
+
+  .compContainer {
+    background-color: gray;
+    opacity: 0.8;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    text-shadow: white;
+    border-radius: 10px;
+
+    &:hover {
+      background-color: #6F6F6F;
+    }
+
+  }
+}
